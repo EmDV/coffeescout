@@ -15,4 +15,4 @@ while True:
     current_state = GPIO.input(sensor)
     if current_state != previous_state:
         new_state = "HIGH" if current_state else "LOW"
-        print("GPIO pin %s is %s" % (sensor, new_state))
+        print "GPIO pin %s is %s" % (sensor, new_state)
